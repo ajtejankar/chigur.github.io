@@ -21,7 +21,7 @@ author:
   info:
 
 url: http://chigur.github.io
-baseurl: "/themeditations"
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
