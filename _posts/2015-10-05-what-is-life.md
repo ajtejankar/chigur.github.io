@@ -1,8 +1,6 @@
 ---
-published: false
+title: What is Life?
 ---
-
-# What is life?
 
 There cannot be a better metaphor for describing _life_ than that of a _wave_.
 Not the kind of wave that we instantly imagine at the mention of word _wave_,
