@@ -4,7 +4,6 @@ title: About
 published: true
 ---
 
-
-The main objective of this blog is twofold, first: writing something down is a good way of solidifying my own knowledge and second: a different if not radically new prespective can always be of use to somebody.
-
-Apart from above reasons there is another hidden motive, doing some creative writing. I had always thought I would grow up to be a writer but then things happened and I ended up becoming a programmer, so this blog will remind me of all the stories, tumbling up and down in my head, waiting to be penned.
+Hi, my name is Ajinkya Tejankar and I am programmer based in Pune.
+Also, I don't have much to say about myself as of now, but go read my
+articles they'll speak more about me than anything else.
