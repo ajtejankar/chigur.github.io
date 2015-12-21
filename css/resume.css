@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+body {
+	font-family: 'Lato';
+	width: 21.59cm;
+	margin: auto;
+	box-sizing: border-box;
+	padding: 2.54cm;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+	color: #0277BD;
+	border-bottom: 1px solid transparent;
+	transition: all 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #0277BD;
+}
+
+h3 {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+h3,
+.company .name {
+	text-decoration: underline;
+}
+
+h4 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.company {
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #0277BD;
+}
+
+.header h1 > a,
+.header h1 > a:hover {
+	border-width: 2px;
+}
+
+.titlebar {
+	display: flex;
+	align-items: baseline;
+}
+
+.titlebar > h1 {
+	display: flex;
+	flex: 1;
+	margin: 0;
+}
+
+.contact {
+	margin-top: 10px;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.phone {
+	margin-right: 10px;
+}
+
+.header {
+	padding-bottom: 15px;
+}
+
+section {
+	border-bottom: 2px solid #ddd;
+}
+
+.degree, .company  {
+	display: flex;
+	align-items: baseline;
+}
+
+.course-name {
+	font-weight: bold;
+}
+
+.gpa {
+	margin-left: 10px;
+}
+
+.date,
+.date {
+	flex: 1;
+	text-align: right;
+	font-style: italic;
+	font-size: initial;
+	color: initial;
+	font-weight: initial;
+	text-decoration: none;
+}
+
+.degree {
+	margin-bottom: 2px;
+}
+
+.college {
+	margin-top: 0;
+}
+
+.skill-list {
+	display: flex;
+}
+
+.skills > div {
+	flex: 1;
+}
+
+.skill-list h3 {
+	margin-top: 0;
+}
+
+.skill-list ul {
+	padding-left: 0;
+}
+
+.extra li,
+.achievements li,
+.projects li {
+	display: flex;
+}
+
+.extra ul,
+.achievements ul,
+.projects ul {
+	padding-left: 20px;
+}
+
+.extra .name,
+.achievements .name,
+.projects .name {
+	padding-left: 10px;
+}
+
+@media print {
+	.projects {
+		page-break-before: always;
+	}
+
+	@page :right {
+		margin: 0.8cm;
+	}
+}
