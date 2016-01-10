@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: about
 title: About
 published: true
 ---
 
 Hi, my name is Ajinkya Tejankar and I am programmer based in Pune.
-Also, I don't have much to say about myself as of now, but go read my
-articles they'll speak more about me than anything else. And, if you would
-like to hire me here is my [resume](http://themeditations.me/resume.html)
+I enjoy programming, cinema, history and just about every other interesting thing.
+The name *The Meditations* is inspired from the first ever [Zen Pencils comic][1] I read,
+the above image is also from the same comic. You should definite checkout those comics,
+they are a pure delight to read.
+
+[1]: http://zenpencils.com/comic/aurelius/

@@ -38,7 +38,7 @@ show-subtitle: true
 display-social-icons: false
 
 # Preferrably 64px in height. Leave empty = disbale.
-logo-image: # /img/logo.png
+logo-image: # /img/the-meditations.png
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#00f0ff"
