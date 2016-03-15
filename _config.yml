@@ -131,9 +131,10 @@ var_your_message: Your message
 
 # You don't have to change these.
 
-highlighter: pygments
+highlighter: rogue
 kramdown:
   input:
+gems: [jekyll-paginate]
 paginate_path: "/page-:num/"
 permalink: pretty
 defaults:
@@ -143,4 +144,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      excerpt_separator: "<!--more-->"

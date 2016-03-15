@@ -15,6 +15,8 @@ The questions, who am I?, what am I? and why am I here? have haunted many a grea
 minds for centuries and yet we are nowhere closer to a commonly agreed upon answer.
 Am I a free intellectual being, capable of all actions imaginable? or a mere puppet in the hands of nature?.
 
+<!--more-->
+
 It should be very easy for anybody to relate to atleast some, if not all, questions
 or information in the above paragraph. This essay is not an exploration of answers to those questions, they exist only to illustrate the complex nature of our lives and the quintessential character the of human race, namely, consciosness. We may be born with consciousness or human race may have developed enough to nurture it in their progeny, the nature vs. nurture debate will continue, but nobody can deny that experiences of a man have profound impact on his consciousness.
 

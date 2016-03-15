@@ -9,6 +9,8 @@ Interviewing at Nvidia was an intense and tumultous experience for me and since
 I didn't make it even past the telephonic interview I must vent off some steam
 and collect my thoughts.
 
+<!--more-->
+
 During my college days Nvidia was the company everybody wanted to join and I
 wasn't an exception. I wanted to work there badly, the money, the fame and the
 respect were too alluring to reject, but I was never destined to even appear for

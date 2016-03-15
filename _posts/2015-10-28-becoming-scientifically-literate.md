@@ -9,6 +9,8 @@ title: Becoming Scientifically Literate
 >
 > -- Inspired from the remarkable paper, On Scientific Thought by Edgar W. Dijkstra
 
+<!--more-->
+
 The human race has changed significantly from its previous form mostly because of science, so we can stand to gain much by looking at how science does its magic. The state of mathematics and science teaching on all levels of education is paltry, we cannot have future engineers brought up in the fear of mathematics or sciences. Why does it happen that students end up discarding mathematics as too boring?. I am myself a product of this bad system and I used to hate mathematics for some time. When we've become so much different from our past and when the problems of climate change are upon our heels can we afford to have future generations not initiated in the method of science?. I believe not.
 
 Given that the ratio of bad to good teachers will always be huge, how do we ensure that everyone gets enough teachers?. Well, I don't think we can. One solution can be found in the form of online
