@@ -1,5 +1,5 @@
 ---
-title: Love-Hate Web Devlopment Toolchain
+title: Love-Hate Web Dev Toolchain
 ---
 
 Web application development has the potential to mercilessly drown all of your
