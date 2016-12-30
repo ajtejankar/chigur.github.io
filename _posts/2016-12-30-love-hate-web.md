@@ -1,5 +1,5 @@
 ---
-title: Love-Hate: Web
+title: Love-Hate Web Devlopment Toolchain
 ---
 
 Web application development has the potential to mercilessly drown all of your
@@ -12,70 +12,12 @@ Developing for the web has its perks but a sane development
 environment is certainly not one of them. I just spent about 3 hours setting
 up my environment for TypeScript with RxJS. Three goddamn hours of life wasted
 configuring Vim, the TypeScript compiler, and the SystemJS module loader.
-You could argue that I learned various module options provided the compiler or
-invented a nifty trick to navigate plugin scripts, but I didn't want to fuckin
+You could argue that I learned various module options provided by the compiler or that I
+invented a nifty trick to navigate the plugin scripts, but I didn't want to
 do that. I wanted to relish the functional beauty of RxJS and instead
 I am ranting about the mess that my dev environment is in. Let me tell
-you what feats of acrobatics one has to perform to get his dev environment
+you what feats of acrobatics one has to perform to get their dev environment
 in order.
-
-## Vim
-
-I love Vim. I can record a macro which calculates an arithmetic operation
-using the expression register, save that macro, and apply it all the lines
-containing _vim is awesome_, but I sometimes hate Vim from the bottom of my
-heart. It has no support for projects: a functionality you simply can't live
-without in the modern age of software development. Sure there are plugins to
-that shit, but you have to download that plugin, set it up, configure it,
-and somehow get it running. Couple this with the abysmal support for semantic
-completion and you start wondering whether all the saved mental effort of text
-editing is really worth it. For me it is (I have a dysfunctional relationship
-with my editor). The fact that all of your editing environment can be
-programmed so seamlessly is the biggest win for me and trumps everything else.
-I've spent a lot of time getting syntax highlighting, file navigation,
-autocompletion, and git integration right (what a shame that Fugitive doesn't
-work properly on windows). Things that any other modern code editor gets
-right without having to install any goddamn plugin.
-
-I understand that this de-centralized development in the wild is responsible
-for some of the best plugins and code editing innovation (I bow to thee
-Tim Pope), but configuring it can be a huge pain. I could live with this
-requirement of knowing your platform before consuming it, but these days I am
-expected to dispose of the old languages and my carefully crafted editor set
-up with it like it was tissue paper. Everybody wants to wipe their asses
-with every new programming language and framework out there. Is this modicum
-of stability too much to ask for?
-
-## Fucking Build Systems of Web
-
-If there is one thing capable of turning me into a fire-spitting dragon gone
-mad with rage then it has to be all the range of build systems in web
-application development. It is a big motherfucking nuisance. Grunt, Gulp,
-Broccoli, Brunch, etc. Don't people get tired of writing this shit? I all lost
-for words on this one.
-
-## JavaScript
-
-Again, my relationship with JavaScript is somewhat dysfunctional. I love it
-as a scripting language, but ask me to write a full-fledged web application
-of moderate complexity and I'll vanish into the thin air. Enough has been
-said about how bad JavaScript is, so there doesn't seem to be much point
-in lambasting it more. Although it is getting some major updates in the
-upcoming specifications, you still have to setup Babel to get the module
-system working. This, again, is an example of unnecessary acrobatics
-required to get the basics working. Modules are so fundamental to a language
-that requiring a transpiler is greatly hindering my ability to use it
-effectively. For all of these reasons, I've decided to avoid pure JS as much
-as possible and use proper TypeScript anywhere I can. I would have preferred
-a drastic move to something like Clojure, but the community adoption and
-library support go against it.
-
-TypeScript is a pure pleasure to write. The way interfaces and object literals
-interop in it is just pure gold. I would use TypeScript for this one additional
-feature that it provides on top of ES6. As if this wasn't enough, the type
-system powers a great semantic completion engine. Writing TypeScript in VSCode
-or Visual Studio is plain joyful. Even the support for completion in Vim is
-great, although not as great as the aforementioned IDEs.
 
 ## How I Fumbled Around
 
@@ -98,4 +40,66 @@ great, although not as great as the aforementioned IDEs.
 12. Import the `main.js` file.
 
 You see too many fucking steps.
+
+## Vim
+
+I love Vim. I can record a macro which calculates an arithmetic operation
+using the expression register, save that macro, and apply to it all the lines
+containing _vim is awesome_, but I sometimes hate Vim from the bottom of my
+heart. It has no support for projects: a functionality you simply can't live
+without in the modern age of software development. Sure there are plugins to
+do that shit, but you have to download that plugin, set it up, configure it,
+and somehow get it running. Couple this with the abysmal support for semantic
+completion and you start wondering whether all the saved mental effort of text
+editing is really worth it. For me it is (I have a dysfunctional relationship
+with my editor). The fact that all of your editing environment can be
+programmed so seamlessly is the biggest win for me and trumps everything else.
+I've spent a lot of time getting syntax highlighting, file navigation,
+autocompletion, and git integration right (what a shame that Fugitive doesn't
+work properly on windows) for Vim. Things that any other modern code editor
+gets right without having to install any goddamn plugin.
+
+I understand that this de-centralized development in the wild is what has
+allowed for some of the best plugins and code editing innovation (I bow to thee
+Tim Pope), but configuring it can be a huge pain. I could live with this
+requirement of knowing your platform before consuming it, but these days I am
+expected to dispose of the old languages and my carefully crafted editor set
+up with it like it was tissue paper. Everybody wants to wipe their asses
+with some new programming language and framework out there. Is this modicum
+of stability too much to ask for?
+
+## Fucking Build Systems of Web
+
+If there is one thing capable of turning me into a fire-spitting dragon gone
+mad with rage, then it has to be the range of build systems in web
+application development. It is a big motherfucking nuisance. Grunt, Gulp,
+Broccoli, Brunch, etc. Don't people get tired of writing this shit? I am
+all lost for words on this one.
+
+## JavaScript
+
+Again, my relationship with JavaScript is somewhat dysfunctional. I love it
+as a scripting language, but ask me to write a full-fledged web application
+of moderate complexity and I'll vanish into the thin air. Enough has been
+said about how bad JavaScript is, so there doesn't seem to be much point
+in lambasting it anymore. Although it is getting some major updates in the
+upcoming specifications, you still have to setup Babel to get the module
+system working. This, again, is an example of unnecessary acrobatics
+required to get the basics working. Modules are so fundamental to a language
+that requiring a transpiler is greatly hinders my ability to use it
+effectively. For all of these reasons, I've decided to avoid pure JS as much
+as possible and use proper TypeScript anywhere I can. I would have preferred
+a drastic move to something like Clojure, but the community adoption and
+library support go against it.
+
+TypeScript is a pure pleasure to write. The way interfaces and object literals
+interop in it is just pure gold. I would use TypeScript for this one additional
+feature alone that it provides on top of ES6. As if this wasn't enough, the type
+system powers a great semantic completion engine. Writing TypeScript in VSCode
+or Visual Studio is plain joyful. Even the support for completion in Vim is
+great, although not as great as the aforementioned IDEs. TypeScript just made
+sense to me when I encountered it the first time. It was love at first sight,
+but unlike JavaScript, which is more like a stormy passionate teenage love,
+being with TypeScript is soothing. I hope that I don't end up hating it or
+Microsoft or leave it.
 
